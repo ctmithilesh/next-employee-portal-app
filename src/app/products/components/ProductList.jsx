@@ -10,7 +10,7 @@ const ProductList = ({ result }) => {
       {resultCondition ? (
         result.map((item, index) => (
           <div
-            className="p-2 m-2 shadow-xl card card-compact bg-base-100 w-96"
+            className="w-full p-2 m-2 shadow-xl card card-compact bg-base-100"
             key={index}
           >
             <figure>
